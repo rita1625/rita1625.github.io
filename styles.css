@@ -233,3 +233,6 @@ img { display: block; width: 100%; height: 100%; object-fit: cover; }
 .member-band .section-kicker { color: #d9c9a8; }
 .member-band .section-title { color: #fffaf0; margin-bottom: 12px; }
 .member-band .lede { color: #f3ead6; }
+.member-band .member-list { list-style: none; margin: 0 auto; padding: 0; max-width: 640px; text-align: left; }
+.member-band .member-list li { position: relative; padding: 5px 0 5px 1.2em; font-size: clamp(16px, 2.2vw, 19px); color: #f3ead6; }
+.member-band .member-list li::before { content: "-"; position: absolute; left: 0; color: #d9c9a8; }
